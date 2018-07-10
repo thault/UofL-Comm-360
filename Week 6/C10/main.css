@@ -38,8 +38,32 @@ li{
     background-repeat: no-repeat;
 }
 
+#main {
+    text-align: center;
+}
+
 #column {
     float: left;
     width: 33%;
     text-align: center;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding-bottom: 200px;
+}
+
+#footer {
+    text-align: center;
+}
+
+a:link{
+    color: gold;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: cadetblue;
 }
