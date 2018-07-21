@@ -1,0 +1,70 @@
+body {
+	background-color: navy;
+    color: gold;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    color: #800020;
+}
+
+h1{
+    font-size: 36px;
+    padding: 5px;
+    
+}
+
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+li{
+    text-decoration: underline;
+}
+
+#header {
+    text-align: center;
+    border-style: solid;
+    border-color: #800020;
+    margin: 5px;
+    border-radius: 25px;
+    /*background-image: url(star.jpg);*/
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#main {
+    text-align: center;
+}
+
+#column {
+    float: left;
+    width: 33%;
+    text-align: center;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    padding-bottom: 200px;
+}
+
+#footer {
+    text-align: center;
+    clear: both;
+}
+
+a:link{
+    color: gold;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: cadetblue;
+}
