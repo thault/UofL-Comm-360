@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel=stylesheet href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Forms</title>
+</head>
+    
+<body>
+    <form action="" method="post">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="cName" value=""></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="cEmail" value=""></td>
+                </tr>
+                <tr>
+                    <td>Comments:</td>
+                    <td><textarea columns="50" rows="5" name="Comments"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Rating</td>
+                    <td>
+                        <select name="Rating">
+                            <option value="5">*****</option>
+                            <option value="4">****</option>
+                            <option value="3">***</option>
+                            <option value="2">**</option>
+                            <option value="1">*</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact:</td>
+                    <td>
+                        Yes<input type="radio" value="Yes" name="Contact">
+                        No<input type="radio" value="No" name="Contact">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="subButton">
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+    </form>
+</body>

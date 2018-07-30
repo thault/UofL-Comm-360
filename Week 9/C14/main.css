@@ -1,0 +1,8 @@
+#subButton{
+    text-align: center;
+}
+
+table, tr, td{
+    border-style: solid;
+    border-collapse: collapse;
+}
