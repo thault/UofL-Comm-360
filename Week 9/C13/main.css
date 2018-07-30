@@ -1,0 +1,23 @@
+table, th {
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+    border-bottom-width: 5px;
+    padding: 10px;
+}
+
+td {
+    border-style: dotted;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#Head {
+    color: white;
+    background-color: #6c6c6c;
+}
+
+#dRow {
+    color: white;
+    background-color: #bcbcbc;
+}
