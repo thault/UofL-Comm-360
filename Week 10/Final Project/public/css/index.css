@@ -1,0 +1,27 @@
+#two {
+    color: #FFD700;
+    background-color: #720E31;
+    width: 440px;
+    height: 521px;
+    border-color: #FFD700;
+    border-style: solid;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-collapse: collapse;
+}
+
+th, td, tr {
+    border-right: none;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th {
+    text-decoration: underline;
+    font-size: 15px;
+}

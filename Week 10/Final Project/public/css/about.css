@@ -1,0 +1,14 @@
+#fancy {
+    font-family: Bilbol, cursive;
+    font-size: 40px;
+}
+
+content p {
+    text-align: left;
+}
+
+.panel p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
